@@ -1,0 +1,259 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.adddiv
+{
+	width: 100%;
+	position: fixed;
+	margin-top: 15%;
+}
+
+.addtext
+{
+	position: absolute;
+	z-index: 1;
+	width:100%;
+	
+	top: 15%;
+}
+
+.centertext
+{
+
+	width: 15%;
+	text-align: center;
+	margin-left: 42.5%;
+	margin-right: 42.5%;
+	margin-top: 5%;
+	font-size: 1.5vw;
+}
+
+.image
+{
+	width: 15%;
+	margin-left: 42.5%;
+	margin-right: 42.5%;
+	margin-top: -2%;
+}
+.Link
+{
+
+	width: 15%;
+	margin-left: 42.5%;
+	margin-right: 42.5%;
+	margin-top: 1.5%;
+	
+}
+
+.centertext2
+{
+	width: 100%;
+	text-align: center;
+}
+
+.centerbuttons
+{	
+	align-content: center;
+	width: 100%;
+	margin-top: 2%;
+}
+.centerbuttonsinsuide
+{
+	width: 5%;
+
+}
+
+Body, Html{
+	background: #f0d8f0;
+	height: 100%;
+	width: 100%;
+}
+
+Head {
+	position: fixed;
+}
+
+.TitleBar {
+
+	position: relative;
+	margin: -14px;
+	z-index: 0;
+}
+
+.Title{
+
+	width:100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+
+}
+
+.Filename
+{
+	position: absolute;
+	z-index: 1;
+	width:100%;
+	
+	top: 80%;
+}
+
+.Discription
+{
+	position: absolute;
+	z-index: 1;
+	width:70%;
+	margin-left:15%;
+    margin-right:15%;
+	height: 20%;
+}
+
+.backgroundElements
+{
+	width: 100%;
+	height:100%;
+    border-collapse:collapse;
+    display : table;
+	position: fixed;
+}
+
+.mainselection
+{
+	position: absolute;
+	width: 9%;
+	margin-top: -3.75%;
+	margin-left: 45.5%;
+	margin-right: 45.5%;
+	background-color: transparent;
+	 background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	
+}
+
+.mainselectioninside
+{
+	border-radius: 20%;
+	position: absolute;
+	width: 92.5%;
+	margin-top: 5%;
+	margin-left: 4%;
+	margin-right: 46%;
+	background-color: transparent;
+	 background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.Leftselectioninside
+{
+	
+	filter: contrast(75%);
+	border-radius: 20%;
+	position: absolute;
+	width: 7%;
+	margin-top: -2.25%;
+	margin-left: 28.5%;
+	margin-right: 64.5%;
+}
+
+.Leftselection
+{
+	position: absolute;
+	width: 8%;
+	margin-top: -3%;
+	margin-left: 28%;
+	margin-right: 64%;
+}
+
+.rightselectioninside
+{
+	filter: contrast(75%);
+	border-radius: 20%;
+	position: absolute;
+	width: 7%;
+	margin-top: -2.25%;
+	margin-right: 28.5%;
+	margin-left: 64.5%;
+}
+
+
+.rightselection
+{
+	position: absolute;
+	width: 8%;
+	margin-top: -3%;
+	margin-left: 64%;
+	margin-right: 28%;
+}
+
+.top
+{
+	position: fixed;
+	width: 100%;
+	
+}
+
+.sellection
+{
+	width: 100%;
+	position: fixed;
+	top: 50%;
+}
+
+.foot
+{
+	display : table-row;
+    vertical-align : bottom;
+    height : 1px;
+}
+
+.buttonLeft
+{
+	position: absolute;
+	background-color: transparent;
+	 background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	width:10%;
+	margin-left:10%;
+    margin-right:80%;
+	top: 50%;
+}
+
+
+.buttonRight
+{
+	position: absolute;
+	background-color: transparent;
+	 background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	width:10%;
+	margin-left:80%;
+    margin-right:80%;
+	top: 50%;
+}
+
+.leftArrow
+{
+	width: 40%;
+	height: 100%;
+}
+
+
